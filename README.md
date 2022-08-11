@@ -1,7 +1,7 @@
 # Izanagi-UI
 
 <p align="center">
-  <img src="./Izanagi-UI.png">
+  <img src="./Izanagi-UI 2.png">
 </p>
 
 ### Overview
