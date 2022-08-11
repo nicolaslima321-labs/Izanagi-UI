@@ -1,4 +1,8 @@
-# Izanagi UI
+# Izanagi-UI
+
+<p align="center">
+  <img src="./Izanagi-UI.png">
+</p>
 
 ### Overview
 
