@@ -1,0 +1,26 @@
+{
+  "name": "izanagi-ui",
+  "version": "0.0.1",
+  "description": "Izanagi-UI - Design System and lib components (React / React Native / VueJS) for Front-End development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaslima321-labs/Izanagi-UI.git"
+  },
+  "keywords": [
+    "react",
+    "vuejs",
+    "react-native",
+    "ui",
+    "izanagi"
+  ],
+  "author": "nicolaslima321",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaslima321-labs/Izanagi-UI/issues"
+  },
+  "homepage": "https://github.com/nicolaslima321-labs/Izanagi-UI#readme"
+}
