@@ -1,6 +1,26 @@
 @import "@izanagi-ui/core";
+@import "globals.scss";
+
+$primary-color-100: #2E3440;
+$primary-color-200: #3B4252;
+$primary-color-300: #434C5E;
+$primary-color-400: #4C566A;
+$primary-color-base: #2E3440;
+$primary-color-interaction: #4C566A;
+
+$secondary-color-100: #7E6E99;
+$secondary-color-200: #6E6186;
+$secondary-color-300: #5E5373;
+$secondary-color-400: #4F4560;
+$secondary-color-base: #7E6E99;
+$secondary-color-interaction: #4F4560;
+
+$success-color: #A3BE8C;
+$warning-color: #EBCB8B;
+$danger-color: #BF616A;
 
 .storybook-button {
+  font-family: 'OpenSauceSans', 'OpenSauceOne', 'OpenSauceTwo';
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   border: 0;
@@ -8,11 +28,15 @@
   cursor: pointer;
   display: inline-block;
   line-height: 1;
-  color: $primary-color;
 }
 .storybook-button--primary {
   color: white;
-  background-color: #1ea7fd;
+  background-color: $secondary-color-100;
+
+  &:hover {
+    background-color: $secondary-color-interaction;
+    transition: .5s;
+  }
 }
 .storybook-button--secondary {
   color: #333;
