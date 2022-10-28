@@ -1,1 +1,11 @@
-$primary-color: purple;
+@import 'colors';
+@import 'components';
+@import 'tokens';
+
+html {
+  font-family: 'OpenSauceSans', 'OpenSauceOne', 'OpenSauceTwo';
+}
+
+body {
+  font-family: 'OpenSauceSans', 'OpenSauceOne', 'OpenSauceTwo';
+}
