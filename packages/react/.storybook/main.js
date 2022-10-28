@@ -37,7 +37,7 @@ module.exports = {
                   loader: require.resolve('sass-resources-loader'),
                   options: {
                     resources: [
-                      path.resolve(__dirname, '../../core/src/styles/scss/globals.scss')
+                      path.resolve(__dirname, '../../core/src/styles/global.scss')
                     ]
                   }
                 }
