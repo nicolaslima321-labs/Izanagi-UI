@@ -1,6 +1,6 @@
 # `@Izanagi-UI/Core`
 
-- **@Izanagi-UI/Core** is the dependencie for styles, tokens, variables, and this entire shareable packages. For the [@Izanagi-UI](README.md)
+- **@Izanagi-UI/Core** is the dependencie for styles, tokens, variables, and this entire shareable packages. For the [@Izanagi-UI](../../README.md)
 
 ## Usage
 
