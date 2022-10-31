@@ -1,7 +1,6 @@
 .izg-button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  border: 0;
+  border-radius: $button-border-radius;
   font-weight: 600;
   cursor: pointer;
   display: inline-block;
@@ -9,6 +8,7 @@
 }
 
 .izg-button--primary {
+  border-width: $primary-button-border;
   background-color: $secondary-color-100;
   color: white;
 
@@ -18,6 +18,7 @@
   }
 }
 .izg-button--secondary {
+  border-width: $secondary-button-border;
   background-color: transparent;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
   color: #333;

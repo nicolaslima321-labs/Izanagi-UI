@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './button.scss';
+import '@izanagi-ui/core';
 
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+export const IzgButton = ({ primary, backgroundColor, size, label, ...props }) => {
+  const mode = primary ? 'izg-button--primary' : 'izg-button--secondary';
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      className={['izg-button', `izg-button--${size}`, mode].join(' ')}
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
@@ -19,7 +19,7 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   );
 };
 
-Button.propTypes = {
+IzgButton.propTypes = {
   /**
    * Is this the principal call to action on the page?
    */
@@ -42,7 +42,7 @@ Button.propTypes = {
   onClick: PropTypes.func,
 };
 
-Button.defaultProps = {
+IzgButton.defaultProps = {
   backgroundColor: null,
   primary: false,
   size: 'medium',
