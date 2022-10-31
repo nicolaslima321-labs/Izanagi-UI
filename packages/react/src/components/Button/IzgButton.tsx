@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '@izanagi-ui/core';
 
 /**
  * Primary UI component for user interaction
@@ -10,7 +9,7 @@ export const IzgButton = ({ primary, backgroundColor, size, label, ...props }) =
   return (
     <button
       type="button"
-      className={['izg-button', `izg-button--${size}`, mode].join(' ')}
+      className={['izg-button', mode].join(' ')}
       style={backgroundColor && { backgroundColor }}
       {...props}
     >

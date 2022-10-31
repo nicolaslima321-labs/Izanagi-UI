@@ -2,10 +2,6 @@
 @import 'tokens';
 @import 'components';
 
-html {
-  font-family: 'OpenSauceSans', 'OpenSauceOne', 'OpenSauceTwo';
-}
-
-body {
+html, body, * {
   font-family: 'OpenSauceSans', 'OpenSauceOne', 'OpenSauceTwo';
 }

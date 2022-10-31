@@ -1,39 +1,35 @@
 import React from 'react';
-
 import { IzgCard } from './IzgCard';
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: 'Example/IzgCard',
   component: IzgCard,
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 };
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template = (args) => <IzgCard {...args} />;
 
-export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-Primary.args = {
+export const Base = Template.bind({});
+Base.args = {
   slot: <span>foo bar</span>,
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
+export const Clickable = Template.bind({});
+Clickable.args = {
   slot: <span>foo bar</span>,
+  onClick: () => console.log('foo bar'),
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
+export const Hoverless = Template.bind({});
+Hoverless.args = {
   slot: <span>foo bar</span>,
+  hoverless: true,
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
+export const Borderless = Template.bind({});
+Borderless.args = {
   slot: <span>foo bar</span>,
+  borderless: true,
 };

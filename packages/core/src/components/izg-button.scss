@@ -1,41 +1,33 @@
 .izg-button {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: $button-border-radius;
-  font-weight: 600;
+  border: 2px solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
   line-height: 1;
+  padding: 11px 20px;
 }
 
 .izg-button--primary {
-  border-width: $primary-button-border;
-  background-color: $secondary-color-100;
+  background-color: $primary-color-100;
+  border-color: $primary-color-100;
   color: white;
 
   &:hover {
-    background-color: $secondary-color-interaction;
+    background-color: $primary-color-interaction;
+    border-color: $primary-color-interaction;
     transition: .5s;
   }
 }
 .izg-button--secondary {
-  border-width: $secondary-button-border;
   background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  border-color: #333;
   color: #333;
-}
 
-.izg-button--small {
-  font-size: 12px;
-  padding: 10px 16px;
+  &:hover {
+    background-color: rgba(#333, 0.25);
+    transition: .5s;
+  }
 }
-
-.izg-button--medium {
-  font-size: 14px;
-  padding: 11px 20px;
-}
-
-.izg-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
-}
-

@@ -1,6 +1,6 @@
 {
   "name": "@izanagi-ui/react",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Nicolas Lima <nicolas.pedroso2145@gmail.com>",
   "homepage": "https://github.com/nicolaslima321-labs/Izanagi-UI#readme",
@@ -47,7 +47,7 @@
     "style-loader": "^3.3.1"
   },
   "dependencies": {
-    "@izanagi-ui/core": "^0.0.4",
+    "@izanagi-ui/core": "^0.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
