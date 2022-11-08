@@ -1,0 +1,1 @@
+export { IzgDivider } from './IzgDivider';

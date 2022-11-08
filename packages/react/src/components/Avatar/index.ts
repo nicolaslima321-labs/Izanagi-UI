@@ -1,0 +1,1 @@
+export { IzgAvatar } from './IzgAvatar';
