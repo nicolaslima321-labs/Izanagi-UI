@@ -1,20 +1,22 @@
 {
   "name": "@izanagi-ui/core",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Core dependencies for Izanagi-UI",
   "keywords": [
-    "izanagi-ui"
+    "izanagi-ui",
+    "izanagi"
   ],
   "author": "Nicolas Lima <nicolas.pedroso2145@gmail.com>",
   "homepage": "https://github.com/nicolaslima321-labs/Izanagi-UI#readme",
   "license": "ISC",
-  "main": "src/core.js",
+  "main": "index.scss",
   "directories": {
     "src": "src",
     "test": "__tests__"
   },
   "files": [
-    "src"
+    "src",
+    "index.scss"
   ],
   "publishConfig": {
     "access": "public"
